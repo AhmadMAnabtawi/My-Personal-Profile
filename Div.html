@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="/process" method="post">
+
+        <div>
+            <label>First Name:</label>
+            <input type="text" name="name" placeholder="Your name...">
+        </div>
+
+        <div>
+            <label>last Name:</label>
+            <input type="text" name="name" placeholder="Your name...">
+        </div>
+
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Your password...">
+        </div>
+
+        <div>
+            <label>confirm Password:</label>
+            <input type="password" name="password" placeholder="Your password...">
+        </div>
+
+        <div>
+            <label>Date:</label>
+            <input type="date" name="date">
+        </div>
+
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your email...">
+        </div>
+
+        <div>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label><br>
+        </div>
+
+        <div>
+        <label>Tell us about yourself:</label><br>
+        <textarea name="about" rows="4" cols="50" placeholder="احكيلي عن حالك يا سيدي "></textarea>
+        </div>
+
+        <div>
+       <label for="subject">Favorite Subject:</label><br>
+       <select name="subject" id="subject">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="java">Java</option>
+       </select>
+        </div>
+
+
+        <div>
+            <input type="checkbox" name="offers" id="offers" checked>
+            <label for="offers">I would like to receive email offers!</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Sign Up!">
+        </div>
+
+    </form>
+
+</body>
+</html>
